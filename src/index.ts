@@ -457,10 +457,11 @@ export default class Fishbowl {
             IAName: this.IAName,
             IADescription: this.IADescription,
             UserName: this.username,
-            UserPassword: crypto
-              .createHash('md5')
-              .update(this.password)
-              .digest('base64')
+            UserPassword: this.password
+            // UserPassword: crypto
+            //   .createHash('md5')
+            //   .update(this.password)
+            //   .digest('base64')
           }
         }
       }
