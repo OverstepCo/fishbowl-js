@@ -39,7 +39,7 @@ interface SessionInfo {
   IADescription: string;
 }
 
-export = class Fishbowl {
+export default class Fishbowl {
   private errorCodes: any;
   private loggedIn = false;
   private key = '';
