@@ -93,7 +93,7 @@ fb.sendRequest({ req: 'ExecuteQueryRq', options: { query: "select * from part wh
  ```
 
 ```javascript
-const Fishbowl = require('fishbowl-js-fork');
+import Fishbowl from 'fishbowl-js-fork';
 
 const fb = new Fishbowl({}, (err, res) => {
   if (err) {
