@@ -590,4 +590,4 @@ export default class Fishbowl {
       }
     });
   };
-};
+}

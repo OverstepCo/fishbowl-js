@@ -1,7 +1,7 @@
 {
-  "name": "fishbowl-js",
-  "version": "2.7.0",
-  "description": "A JavaScript wrapper for the Fishbowl API",
+  "name": "fishbowl-js-fork",
+  "version": "2.7.1",
+  "description": "A JavaScript wrapper for the Fishbowl API forked from fishbowl-js",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BrennenRocks/fishbowl-js.git"
+    "url": "git+https://github.com/OverstepCo/fishbowl-js.git"
   },
   "keywords": [
     "fishbowl",
@@ -27,12 +27,12 @@
     "fishbowlnode",
     "plugin"
   ],
-  "author": "Brennen Davis",
+  "author": "David Silva",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/BrennenRocks/fishbowl-js/issues"
+    "url": "https://github.com/OverstepCo/fishbowl-js/issues"
   },
-  "homepage": "https://github.com/BrennenRocks/fishbowl-js#readme",
+  "homepage": "https://github.com/OverstepCo/fishbowl-js#readme",
   "files": [
     "lib/**/*"
   ],
